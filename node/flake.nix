@@ -1,5 +1,5 @@
 {
-  description = "A basic nodejs flake with a shell";
+  description = "A basic nodejs flake with PNPM and a shell";
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
