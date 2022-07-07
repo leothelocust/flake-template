@@ -12,7 +12,7 @@
   }:
     {
       templates = {
-        meta = {
+        node = {
           path = ./node;
           description = "Node Project";
         };
