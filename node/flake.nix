@@ -9,11 +9,13 @@
     in {
       devShell = pkgs.mkShell {
         nativeBuildInputs = [ pkgs.bashInteractive ];
-        buildInputs = [ 
+        buildInputs = [
           pkgs.nodejs-16_x
-          
-          # pkgs.nodePackages.pnpm
+
+          pkgs.nodePackages.pnpm # the latest and greatest package manager
+          #  or
           # pkgs.yarn
+
           # pkgs.nodePackages.typescript
           # pkgs.nodePackages.typescript-language-server
         ];
